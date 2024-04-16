@@ -1,7 +1,8 @@
 Bank Management System in C++ with Users and Clients
 This project is a console-based bank management system implemented in C++. It allows users and clients to perform various banking operations, such as creating accounts, depositing funds, withdrawing funds, transferring funds between accounts, and checking account balances. The system distinguishes between users, who are bank employees with administrative privileges, and clients, who are regular bank customers.
 
-Features
+Features:
+
 User Management: Users (bank employees) can create, update, and delete client accounts, as well as view transaction history and perform administrative tasks.
 Client Operations: Clients can create new bank accounts, deposit and withdraw funds, transfer funds between accounts, view account details, and check transaction history.
 Transaction History: All transactions are logged and can be viewed by both users and clients for tracking financial activities.
@@ -13,7 +14,9 @@ Users (Administrators):
 Create, update, or delete client accounts
 View transaction history and account details
 Perform administrative tasks
+
 Clients:
+
 Create new bank accounts
 Deposit and withdraw funds
 Transfer funds between accounts
