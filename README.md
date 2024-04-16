@@ -10,8 +10,7 @@ Compile: Compile the source code using a C++ compiler such as g++.
 Run: Execute the compiled program to launch the bank management system.
 Login: Users must log in using their credentials (username and password) to access administrative functions. (For Example =>  UserName : User1 and Password : 1234)
 Menu Options: Users and clients are presented with menu options based on their roles:
-Users (Administrators):
-Create, update, or delete client accounts
+Users (Administrators): Create, update, or delete client accounts
 View transaction history and account details
 Perform administrative tasks
 
@@ -22,21 +21,30 @@ Deposit and withdraw funds
 Transfer funds between accounts
 View account details and transaction history
 Logout: Users can log out of the system to end their session securely.
+
 Technologies Used
+
 C++ programming language
 Standard C++ libraries for input/output and data manipulation
 Authentication and authorization mechanisms for user management
+
 Requirements
+
 C++ compiler (e.g., g++)
 Terminal or command prompt for running the compiled program
-Project Structure
-main.cpp: Contains the main source code for the bank management system.
-User.h, User.cpp: Implementations for the User class, handling user authentication, authorization, and administrative functions.
-Client.h, Client.cpp: Implementations for the Client class, handling client-specific banking operations.
+
+Project Structure:
+
+BankSystem.cpp: Contains the main source code for the bank management system.
+clsUser.h, User.cpp: Implementations for the User class, handling user authentication, authorization, and administrative functions.
+clsClient.h, Client.cpp: Implementations for the Client class, handling client-specific banking operations.
 Account.h, Account.cpp: Implementations for the Account class, including account creation, deposit, withdrawal, and transaction history.
-BankSystem.h, BankSystem.cpp: Main logic and menu-driven interface for the bank management system.
-Contributing
+clsBankSystem.h, BankSystem.cpp: Main logic and menu-driven interface for the bank management system.
+...
+
+Contributing:
+
 Contributions are welcome! If you have suggestions for improvements or new features, feel free to submit a pull request.
 
-License
+License:
 This project is licensed under the MIT License - see the LICENSE.md file for details.
