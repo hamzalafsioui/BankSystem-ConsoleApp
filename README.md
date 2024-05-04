@@ -35,7 +35,6 @@ Perform administrative tasks
 * clsBankSystem.h, BankSystem.cpp: Main logic and menu-driven interface for the bank management system.
 * ... (other relevant files)
 ## Contributing:
-Contributions are welcome! If you have suggestions for improvements or new features, feel free to submit a pull request.
-
+* Feel free to contribute to this project by providing feedback, suggesting new features, or submitting pull requests. contact us at hamzalafsioui@gmail.com
 ## License:
 This project is licensed under the MIT License - see the LICENSE.md file for details.
